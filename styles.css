@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#ourmenu h1{
+    text-align: center;
+}
+.container-fluid h1{
+    
+    background-color: gray;
+}
+
+#no-padding h1{
+    padding: 20px;
+    margin: 0;
+    margin-left: 0;
+}
+
+.col-12{
+    background-color: gray;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
+
+@media (max-width: 768px)
+{
+    
+}
