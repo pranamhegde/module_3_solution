@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
 }
-
+.bg-gray{
+    background-color: gray;
+    height: 80px;
+}
 #ourmenu h1{
     text-align: center;
 }
@@ -17,16 +20,28 @@
     margin-left: 0;
 }
 
-.col-12{
+.col-xs-12{
     background-color: gray;
     margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 40px;
 
 }
 
-@media (max-width: 768px)
+@media (min-width:992px){
+    #hidden1, #hidden2, #hidden3{
+       visibility: hidden;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #hidden4{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 767px)
 {
     
 }
